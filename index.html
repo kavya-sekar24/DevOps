@@ -1,10 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>DevOps Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps CI/CD Pipeline</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+header {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.3);
+}
+
+header h1 {
+    color: #00ffcc;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    color: #00ffcc;
+}
+
+.btn {
+    padding: 12px 30px;
+    background: #00ffcc;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+.section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(0,255,204,0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.4);
+}
+</style>
 </head>
+
 <body>
-    <h1>Hello Kavya 🚀</h1>
-    <h2>Jenkins + Docker CI/CD Working!</h2>
+
+<header>
+    <h1>DevOps Pipeline</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Pipeline</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>CI/CD with <span>Jenkins + Docker</span></h2>
+    <p>Automated build, test & deployment pipeline powered by AWS EC2</p>
+    <br>
+    <a href="#" class="btn">Deploy Now</a>
+</section>
+
+<section class="section">
+    <h2>Our DevOps Stack</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Docker</h3>
+            <p>Containerized applications for consistent deployment.</p>
+        </div>
+        <div class="card">
+            <h3>Jenkins</h3>
+            <p>Automated CI/CD pipelines with seamless integration.</p>
+        </div>
+        <div class="card">
+            <h3>AWS EC2</h3>
+            <p>Scalable cloud infrastructure for production-ready apps.</p>
+        </div>
+        <div class="card">
+            <h3>GitHub</h3>
+            <p>Version control & collaboration for DevOps workflow.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Kavya DevOps Project | Powered by Jenkins & Docker 🚀</p>
+</footer>
+
 </body>
 </html>
